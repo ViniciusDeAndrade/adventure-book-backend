@@ -15,7 +15,4 @@ public class BookImportDto {
     private String type;
     private List<SectionImportDto> sections;
 
-    public boolean hasType() {
-        return this.getType() != null && !this.getType().isBlank();
-    }
 }

@@ -1,0 +1,16 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: none
+    defer-datasource-initialization: true
+  datasource:
+    url: jdbc:h2:mem:test;DB_CLOSE_DELAY=-1
+  sql:
+    init:
+      mode: always
+      data-locations: classpath:test-data.sql
+      schema-locations: classpath:schema.sql
+
+book:
+  loader:
+    enabled: false

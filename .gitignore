@@ -4,6 +4,4 @@
 .vscode
 *.iml
 .env
-application.yml
-application.properties
 !.mvn/wrapper/maven-wrapper.jar
