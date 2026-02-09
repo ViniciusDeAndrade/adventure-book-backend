@@ -22,7 +22,7 @@ java -jar target/adventure-book-backend-1.0.0-SNAPSHOT.jar
 
 Default: H2 in-memory, port 8080.
 
-## Use another database
+## Use another database (WIP)
 
 To use PostgreSQL (or another DB), add the driver to `pom.xml` and run with:
 
